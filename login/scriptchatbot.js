@@ -5,8 +5,8 @@ function validate() {
   const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
   var a = document.getElementById("aa").value;
   var b = document.getElementById("ab").value;
-  if ((name = "")) alert("Enter username");
-  else if ((email = "")) alert("Enter email");
+  if (name == "") alert("Enter username");
+  else if (email == "") alert("Enter email");
   else if (!email.match(emailRegex)) alert("Enter a valid email");
   else if (a == "" || b == "") alert("Enter passwords");
   else if (a == b) alert("You are good to go!!!!!");
