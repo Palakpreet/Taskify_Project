@@ -15,6 +15,7 @@ Key Features:
 
 In summary, this task divider app is a comprehensive solution for managing your daily and future tasks efficiently. It combines user-friendly design with seamless data storage, external API integration, and intuitive task management features. Experience a new level of productivity with this all-in-one task management tool.
 
-You need to run the file front.html on the browser or live server which will show the websie as below and from there you can move to login/Sign Up which includes chatbot , can move to manage specific days and can move to manage 
+You need to run the file front.html on the browser or live server which will show the website as below and from there you can move to login/Sign Up which includes chatbot , can move to manage specific days and can move to manage 
 to manage future tasks.
+
 ![image](https://github.com/Palakpreet/Taskify_Project/assets/95870982/2cb8409b-e43d-4964-b5c1-bf34cb1a83c2)
