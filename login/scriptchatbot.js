@@ -1,3 +1,27 @@
+function validate() {
+  var name = document.getElementById("name").value;
+  const emailInput = document.getElementById("email");
+  const email = emailInput.value;
+  const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+  var a = document.getElementById("aa").value;
+  var b = document.getElementById("ab").value;
+  if ((name = "")) alert("Enter username");
+  else if ((email = "")) alert("Enter email");
+  else if (!email.match(emailRegex)) alert("Enter a valid email");
+  else if (a == "" || b == "") alert("Enter passwords");
+  else if (a == b) alert("You are good to go!!!!!");
+}
+function checkemail() {
+  const emailInput = document.getElementById("email");
+  const email = emailInput.value;
+  const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+  if (!email.match(emailRegex)) {
+    alert("Invalid email address");
+  } else {
+    alert("Valid email address");
+  }
+}
 const chatbotToggler = document.querySelector(".chatbot-toggler");
 const closeBtn = document.querySelector(".close-btn");
 const chatbox = document.querySelector(".chatbox");
@@ -6,7 +30,6 @@ const sendChatBtn = document.querySelector(".chat-input span");
 
 let userMessage = null;
 const API_KEY = "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";
-//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
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {

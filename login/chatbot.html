@@ -43,19 +43,43 @@
         </form>
 
         <form class="signup-box">
-          <input type="text" class="name ele" placeholder="Enter your name" />
+          <input
+            type="text"
+            class="name ele"
+            placeholder="Enter your name"
+            id="name"
+            required
+          />
           <input
             type="email"
             class="email ele"
             placeholder="youremail@email.com"
+            id="email"
+            ;
+            required
           />
-          <input type="password" class="password ele" placeholder="password" />
+          <input
+            type="password"
+            class="password ele"
+            placeholder="password"
+            id="aa"
+            required
+          />
           <input
             type="password"
             class="password ele"
             placeholder="Confirm password"
+            id="ab"
+            ;
+            required;
+            ;
           />
-          <input class="clkbtn" type="reset" value="SignUp" />
+          <input
+            class="clkbtn"
+            type="reset"
+            value="SignUp"
+            onclick="vaildate()"
+          />
         </form>
       </div>
     </div>
